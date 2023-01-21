@@ -7,5 +7,5 @@
  <meta name="keywords" content="" />
  <meta name="description" content="" />
  <meta name="author" content="" />
- <link rel="shortcut icon" href="assets/frontend/images/favicon.png" type="">
+ <link rel="shortcut icon" href="frontend/images/favicon.png" type="">
  <title> @yield('title','E-commerce' ) </title>

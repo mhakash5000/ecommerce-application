@@ -1,7 +1,7 @@
 <header class="header_section">
     <div class="container">
        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html"><img width="250" src="assets/frontend/images/logo.png" alt="#" /></a>
+          <a class="navbar-brand" href="index.html"><img width="250" src="frontend/images/logo.png" alt="#" /></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class=""> </span>
           </button>
@@ -35,6 +35,7 @@
                   @auth
                   <li class="nav-item">
                      <x-app-layout>
+                        
                      </x-app-layout>
                   </li>
                   @else
@@ -42,7 +43,7 @@
                      <a class="btn btn-primary" id="logincss" href="{{ route('login') }}">Login</a>
                   </li>
                   <li class="nav-item">
-                     <a class="btn btn-success" href="{{ route('register') }}">Register</a>
+                     <a class="btn btn-success"  id="logincss" href="{{ route('register') }}">Register</a>
                   </li>
                   @endauth
                @endif

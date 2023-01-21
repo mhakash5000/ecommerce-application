@@ -11,11 +11,12 @@ class HomeController extends Controller
     public function index(){
         return view('frontend.home');
     }
-    public function redirect()
+    public function adminDashboard()
     {
         $usertype= Auth::user()->usertype;
         if($usertype == '1'){
-            return view('backend.admin.home');
+            // return view('backend.admin.home');
+            return view('backend.layouts.admin-home');
         }
         else{
             return view('frontend.home');
