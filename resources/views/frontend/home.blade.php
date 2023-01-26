@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html>
    <head>
-      @include('pertials.frontend.meta')
+      @include('frontend/pertials.meta')
       <!-- bootstrap core css -->
-      @include('pertials.frontend.style')
+      @include('frontend/pertials.style')
    </head>
    <body>
       <div class="hero_area">
          <!-- header section strats -->
-         @include('pertials.frontend.header')
+         @include('frontend/pertials.header')
          <!-- end header section -->
          <!-- slider section -->
-         @include('pertials.frontend.slider')
+         @include('frontend/pertials.slider')
          <!-- end slider section -->
       </div>
       <!-- why section -->
-      @include('pertials.frontend.why-shop')
+      @include('frontend/pertials.why-shop')
       <!-- end why section -->
       
       <!-- arrival section -->
-      @include('pertials.frontend.new-arrival')
+      @include('frontend/pertials.new-arrival')
       <!-- end arrival section -->
       
       <!-- product section -->
-      @include('pertials.frontend.product')
+      @include('frontend/pertials.product')
       <!-- end product section -->
 
       <!-- subscribe section -->
-       @include('pertials.frontend.subscribe')
+       @include('frontend/pertials.subscribe')
       <!-- end subscribe section -->
       <!-- client section -->
-      @include('pertials.frontend.client')
+      @include('frontend/pertials.client')
       <!-- end client section -->
       <!-- footer start -->
-      @include('pertials.frontend.footer')
+      @include('frontend/pertials.footer')
       <!-- footer end -->
       
       <!-- jQery -->
-     @include('pertials.frontend.script')
+     @include('frontend.pertials.script')
    </body>
 </html>
